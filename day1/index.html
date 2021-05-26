@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Day 1</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        Registration Form
+        <table>
+            <form action="send.php" methos="post">
+                <tr>
+                    <td>
+                        <div class="label"><label class="label" for="firstname">First Name</label></div>
+                    </td>
+                    <td>
+                        <div class="field"><input type="text" name="FirstName" id="firstname"></div>
+                    </td><br>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="label"><label class="label" for="lastname">Last Name</label></div>
+                    </td>
+                    <td>
+                        <div class="field"><input type="text" name="LastName" id="lastname"></div>
+                    </td><br>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="label"><label for="email">Email-ID</label></div>
+                    </td>
+                    <td>
+                        <div class="field"><input type="email" name="EMAIL" id="email"></div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="label"><label class="label" for="ps">Password</label></div>
+                    </td>
+                    <td>
+                        <div class="field"><input type="password" name="Password" id="ps"></div>
+                    </td><br>
+                </tr>
+
+            </form>
+        </table>
+        <button type="submit" class="button">Register</button>
+    </div>
+
+    <div class="logcontain">
+        Login Form<br>
+        <table>
+            <form action="send.php" method="post">
+                
+                <tr>
+                    <td>
+                        <div class="label"><label for="email">Email-ID</label></div>
+                    </td>
+                    <td>
+                        <div class="field"><input type="email" name="EMAIL" id="email"></div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="label"><label class="label" for="ps">Password</label></div>
+                    </td>
+                    <td>
+                        <div class="field"><input type="password" name="Password" id="ps"></div>
+                    </td><br>
+                </tr>
+
+            </form>
+        </table>
+        <button type="submit" class="logbutton">Login</button>
+    </div>
+</body>
+
+</html>

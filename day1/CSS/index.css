@@ -1,0 +1,80 @@
+*{
+    font-family:  'Noto Sans HK', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    text-align: center;
+    background: rgb(195, 210, 235);
+    display: inline-block;
+    margin: auto auto;
+    padding:10px 15px;
+    border: 2px solid blue;
+    border-radius:15px ;
+    box-shadow:5px 5px 20px 10px rgb(176, 199, 235);
+    position:absolute;
+    left:200px;
+    top:60px;
+}
+
+.container table tr td{
+    padding:5px;
+}
+.label{
+    text-align:left;
+    padding:2px;
+
+}
+
+.field{
+    text-align:left;
+    padding:2px;
+}
+
+.button {
+    background-color: #5461db; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px;
+  }
+
+.button:hover{
+    background: blue;
+    color: white;
+
+}
+
+.logcontain{
+    position:fixed;
+    text-align: center;
+    right:200px;
+    top: 60px;
+    border: 2px solid green;
+    border-radius: 15px;
+    box-shadow:5px 5px 20px 5px rgb(114, 168, 70);
+    padding:20px;
+    background:wheat;
+}
+
+.logbutton {
+    background-color: #f2f7b9; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px;
+}
+
+.logbutton:hover{
+    background: rgb(0, 109, 15);
+    color: white;
+
+}
