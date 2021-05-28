@@ -105,3 +105,29 @@ else:
     else:
         print("c is greatest")
 print("--------------------------------------------------------------------")
+print("13.Take 3 numbers and find greatest number using logical operator.")
+a,b,c = int(input("Enter three numbers: ")),int(input()),int(input())
+if a>b and a>c:
+    print(a," is greatest")
+elif b>c and b>a:
+    print(b," is greatest")
+else:
+    print(c," is greatest")
+print("--------------------------------------------------------------------")
+print("14.Write a program to swap 2 numbers without taking third variable.")
+a,b = int(input("Enter two numbers: ")),int(input())
+print("Before swaping a is",a,"b is",b)
+a=a+b
+b=a-b
+a=a-b
+print("After swaping a is",a,"b is",b)
+print("--------------------------------------------------------------------")
+print("15.Take starting number and ending number from the user and print following series.")
+print("30 27 24 21 18 15 12 9 6 3 0")
+a,b = int(input("Enter starting number: ")),int(input("Enter ending number: "))
+list1 = []
+for i in range(b, a+1, 3):
+    list1.append(i)
+list2 = sorted(list1, reverse=True)
+for x in list2:
+    print(x)
