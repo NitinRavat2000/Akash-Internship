@@ -1,3 +1,4 @@
+
 # Akash-Internship
 
 
@@ -11,6 +12,8 @@
 # DAY 3 Task
 ![Screenshot (152)](https://user-images.githubusercontent.com/80144685/119937799-09386080-bfa9-11eb-884a-4f76e0d39c4a.png)
 ![Screenshot (153)](https://user-images.githubusercontent.com/80144685/119937806-0c335100-bfa9-11eb-87e4-26fbec0faa67.png)
+![Screenshot (155)](https://user-images.githubusercontent.com/80144685/119983535-eaa08c80-bfdd-11eb-9315-b7ddedb20b41.png)
+
 
 
 
