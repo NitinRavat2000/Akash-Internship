@@ -1,4 +1,4 @@
-![Screenshot (176)](https://user-images.githubusercontent.com/80144685/121124663-eb89b780-c842-11eb-9150-5d944a4b999e.png)
+
 
 # Akash-Internship
 
